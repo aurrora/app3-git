@@ -1,0 +1,267 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>TERCERA APLICACION</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/tema-app3.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/c1.jpg','imagenes/3R.jpg')">
+
+<div data-role="page" id="Principal" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1> CONTAMINACION</h1>
+</div>
+
+<ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2> QUE ES LA CONTAMINACION</h2>
+<p>Se muestra la definicion</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>TIPOS DE CONTAMINACION</h2>
+
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>CONSECUENCIAS</h2>
+
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>MEDIDAS DE PREVENCION</h2>
+<p>Uso de las 3 R </p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>LA CONTAMINACION EN MI ENTORNO</h2>
+</a>
+</li>
+</ul>
+</div>
+<div data-role="footer" align="center" data-theme="b" data-position="fixed">
+<div>
+<img src="imagenes/c4.jpg" width="128" height="128">
+</div>
+<div>
+<h4>Aplicacion Tres</h4>
+<h4>Aurora Berenice Gonzalez Aguilar</h4>
+</div>
+</div>
+</div>
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>QUE ES LA CONTAMINACION</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<h2>La contaminación es la introducción de sustancias u otros elementos físicos en un medio que provocan que éste sea inseguro o no apto para su uso.1 El medio puede ser un ecosistema, un medio físico o un ser vivo. El contaminante puede ser una sustancia química, energía (como sonido, calor, luz o radiactividad).
+
+Es siempre una alteración negativa del estado natural del medio, y por lo general, se genera como consecuencia de la actividad humana considerándose una forma de impacto ambiental.
+
+La contaminación puede clasificarse según el tipo de fuente de donde proviene, o por la forma de contaminante que emite o medio que contamina. Existen muchos agentes contaminantes entre ellos las sustancias químicas (como plaguicidas, cianuro, herbicidas y otros.), los residuos urbanos, el petróleo, o las radiaciones ionizantes. Todos estos pueden producir enfermedades, daños en los ecosistemas o el medioambiente. Además existen muchos contaminantes gaseosos que juegan un papel importante en diferentes fenómenos atmosféricos, como la generación de lluvia ácida, el debilitamiento de la capa de ozono, y el cambio climático.</h2>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('CONTAMINACION','','imagenes/c1.jpg',1)"><img src="imagenes/c3.jpg" width="305" height="165" id="CONTAMINACION"></a> </div>
+</div>
+<div data-role="footer" data-theme="b" data-position="fixed">
+<h4>AplicacioN Tres, ABGA</h4>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>TIPOS DE CONTAMINACION</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<h2>Contaminación del agua:</h2>
+<p> cuando se incorpora al agua sustancias extrañas como microorganismos, productos químicos, residuos industriales o aguas residuales. Estos contaminantes hacen que el agua no sea beneficiosa para el ser humano ni para la vida vegetal y animal.
+</p>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>Contaminacion del agua</h1>
+<div>
+<br>
+</div>
+<div>
+<img src="imagenes/c2.jpg" width="72%" height="45%">
+</div>
+</div>
+</div>
+<h2>Contaminación del aire:</h2> 
+<p> se denomina a la adición de elementos tóxicos como el CO. Este tipo de contaminación afecta al bienestar de las personas, animales y plantas de forma negativa.</p>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>Contaminacion del aire</h1>
+<div>
+<br>
+</div>
+<div>
+<img src="imagenes/ca.jpg" width="72%" height="45%">
+</div>
+</div>
+</div>
+<h2>Contaminación del suelo:</h2>
+<p> cuando se introduce material extraño y dañino en las capas terrestres. Estos contaminantes producen un desequilibrio físico, químico y biológico en el suelo.</p></div>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>Contaminacion del suelo</h1>
+<div>
+<br>
+</div>
+<div>
+<img src="imagenes/cs.jpg" width="72%" height="45%">
+</div>
+</div>
+</div>
+</div>
+<div data-role="footer" data-theme="b" data-position="fixed">
+<h4>Aplicacion Tres, ABGA</h4>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">9
+  <h1>CONSECUENCIAS</h1>
+  </div>
+  <div data-role="content" align="center">
+  <div>
+   <ul>
+   <li>Mientras los gobernantes deciden cuáles son las medidas que más les favorecen y que se pueden aplicar para reducir la contaminación en nuestro mundo, muchas son las especies que mueren cada día y esto sin tener en cuenta las otras consecuencias de la contaminación que ahora vamos a detallar.</li>
+   <div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>CONSECUENCIAS</h1>
+<div>
+<br>
+</div>
+<div>
+  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('CONTAMINACION','','imagenes/cs.jpg',0)"><img src="imagenes/CA.jpg" width="480" height="360" id="CONTAMINACION2"></a> </div>
+</div>
+</div>
+
+<li>Problemas para la salud: la contaminación hace que las personas estemos cada vez más expuestas a padecer problemas cardiovasculares, con el grave peligro que esto entraña para nuestra salud y vida.</li>
+<li>Debilitamiento de la capa de ozono: la capa de ozono es la que nos protege de los rayos del Sol, los cuales pueden llegar a ser mortíferos sin esta capa. la consecuencia de este debilitamiento es que cada vez nos protege menos y, por ende, cada vez tenemos una mayor temperatura en el planeta. Esto no solo hace que cada vez haya más zonas desiertas en las que es imposible vivir, sino que también hace que el hielo en los polos se deshaga y mueran muchas especies por ello. No hace falta mencionar que esto hace subir indudablemente el nivel del mar y que, de seguir así, muchas ciudades costeras se verán arrasadas, quedándose sin playas y sin zona costera.</li>
+<li>La contaminación afecta al suelo y al agua: la contaminación al medio ambiente afecta al agua y al suelo, lo que hace que cada vez haya más especies en peligro de extinción. El agua no es potable en una gran cantidad de sitios y el suelo para la siembre no tiene los nutrientes necesarios, lo que hace que cada vez se pueda cultivar menos y que el número de cosechas para nuestro sustento sea cada vez menor.</li>
+<li>La contaminación afecta al clima: seguro que ya te has dado cuenta que los inviernos pueden ser mucho más fríos o que los veranos son mucho más calurosos, a la vez que seguro te has dado cuenta que las estaciones como el invierno y el verano pueden ser más largas y que las de temperaturas medias, son cada vez más cortas. Todos estos cambios y los fenómenos que no se habían visto desde  hace mucho tiempo o incluso nunca se habían visto son causados por la contaminación.</li></div>
+   </div>
+<div data-role="footer" data-theme="b" data-position="fixed">
+   <h4>Aplicacion Tres, ABGA</h4>
+   </div>
+   </div>
+   
+   
+   <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="b">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+  <h1>MEDIDAS DE PREVENCION;</h1>
+  </div>
+  <div data-role="content" align="center">
+  <div>
+  <h2>La regla de las tres erres, también conocida como las tres erres de la ecología o simplemente 3R o También las tres erres, es una propuesta sobre hábitos de consumo, popularizada por la organización ecologista Greenpeace, que pretende desarrollar hábitos como el consumo responsable. Este concepto hace referencia a estrategias para el manejo de residuos que buscan ser más sustentables con el medio ambiente y específicamente dar prioridad a la reducción en el volumen de residuos generados. Durante la Cumbre del G8 en junio de 2004, el primer ministro de Japón, Koizumi Junichiro, presentó la Iniciativa de las tres erres que busca construir una sociedad orientada hacia el reciclaje.1 En abril de 2005 se llevó a cabo una asamblea de ministros en la que se discutió con Estados Unidos, Alemania, Francia y otros 20 países la manera en que se puede implementar de manera internacional acciones relacionadas a las tres erres.</h2>
+  <h2>REDUCIR</h2>
+  <h2>REUILIZAR</h2>
+  <h2>RECICLAR</h2>
+ <p> Todos podemos ayudar a mejorar el planeta</p>
+ <p>Te dejamos unas paginas para consultar, y ayudar al planeta</p>
+ <h3><a href="http://www.peques.com.mx/como_cuidar_el_medio_ambiente_desde_tu_escuela.htm" target="_self">Como ayudar al medio ambiente desde el colegio</a></h3>
+ <h3><a href="https://espaciohogar.com/como-cuidar-el-medio-ambiente-desde-casa/" target="_self">Como cuidar el ambiente desde casa </a></h3>
+   <h3> <a href="http://www.natura-medioambiental.com/25-consejos-para-cuidar-el-medio-ambiente/" target="_self">Como cuidar el ambiente en la calle </a></h3>
+   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('REGLA DE LAS 3 R','','imagenes/3R.jpg',1)"><img src="imagenes/3.png" width="250" height="236" id="REGLA DE LAS 3 R"></a> </div>
+  </div>
+   <div data-role="footer" data-theme="b" data-position="fixed">
+   <h4>Aplicacion Tres, ABGA</h4>
+   </div>
+   </div>
+   
+   
+   <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="b">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+  <h1>LA CONTAMINACION EN MI ENTORNO</h1>
+  </div>
+  <div data-role="content" align="center">
+    <div>
+      <h2>Hola mi nombre es Aurora Berenice, tengo 16 años,
+      actualmente vivo en la colonia Guadalupe Victoria, aunque en esta colonia no es muy notable la contaminacion, la hay como en todos los lugares.</h2></div>
+      <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/ap.jpg" alt="ap" title="ap" id="wows1_0"/></li>
+		<li><img src="data1/images/ap1.jpg" alt="ap1" title="ap1" id="wows1_1"/></li>
+		<li><img src="data1/images/ap2.jpg" alt="ap2" title="ap2" id="wows1_2"/></li>
+		<li><img src="data1/images/ap3.png" alt="ap3" title="ap3" id="wows1_3"/></li>
+		<li><img src="data1/images/ap4.jpg" alt="ap4" title="ap4" id="wows1_4"/></li>
+		<li><a href="http://wowslider.com/vi"><img src="data1/images/ap5.jpg" alt="image slider" title="ap5" id="wows1_5"/></a></li>
+		<li><img src="data1/images/ap6.jpg" alt="ap6" title="ap6" id="wows1_6"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="ap"><span><img src="data1/tooltips/ap.jpg" alt="ap"/>1</span></a>
+		<a href="#" title="ap1"><span><img src="data1/tooltips/ap1.jpg" alt="ap1"/>2</span></a>
+		<a href="#" title="ap2"><span><img src="data1/tooltips/ap2.jpg" alt="ap2"/>3</span></a>
+		<a href="#" title="ap3"><span><img src="data1/tooltips/ap3.png" alt="ap3"/>4</span></a>
+		<a href="#" title="ap4"><span><img src="data1/tooltips/ap4.jpg" alt="ap4"/>5</span></a>
+		<a href="#" title="ap5"><span><img src="data1/tooltips/ap5.jpg" alt="ap5"/>6</span></a>
+		<a href="#" title="ap6"><span><img src="data1/tooltips/ap6.jpg" alt="ap6"/>7</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com/vi">image slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+      <h3>Propuestas para mejorar mi entorno</h3>
+      <ul>
+      <li>Organizar campañas con los colonos, para juntar la basura.</li>
+      <li>No hacer amontonaderas de basura</li>
+      <li>Ser comp vecino vigilante, porue el beneficio no es solo para uno, ES PARA TODOS</li>
+      </div>
+      <div data-role="footer" data-theme="b" data-position="fixed">
+      <h4>Aplicacion Uno, ABGA</h4>
+        </div>
+      </div>
+      
+      
+
+</body>
+</html>
